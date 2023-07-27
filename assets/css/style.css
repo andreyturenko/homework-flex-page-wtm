@@ -64,7 +64,7 @@ header img {
   background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
   text-align: center;
-  padding: 64px;
+  padding: 64px 2%;
   width: calc(100% / 3);
   min-width: 300px;
 }
@@ -98,11 +98,16 @@ header img {
   padding: 16px 0;
 }
 
+.center {
+  text-align: center;
+}
 .about {
   display: flex;
+  justify-content: center;
   padding: 64px 16px;
-  margin: 0 350px;
-  min-width: 320;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .about-inside img {
@@ -112,6 +117,7 @@ header img {
 
 .about-inside {
   width: 50%;
+  min-width: 300px;
 }
 
 .about-inside h2 {
