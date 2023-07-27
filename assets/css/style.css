@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./../imgs/bgDesktop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-holder {
+  display: flex;
+}
+
+header img {
+  height: 180px;
+  width: 180px;
+  opacity: 60%;
+}
+
+.title {
+  width: 300px;
+  height: 350px;
+  text-align: center;
+}
+
+.title h1 {
+  margin-top: 16px;
+  font-size: 35.2px;
+  color: #fff;
+  width: 300px;
+  text-align: center;
+  opacity: 80%;
+}
+
+.title p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 16px;
+  color: #fff;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content-wrapper1,
+.content-wrapper2,
+.content-wrapper3 {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  text-align: center;
+  padding: 64px;
+  width: calc(100% / 3);
+  min-width: 300px;
+}
+
+.content-wrapper1 img {
+  width: 54px;
+  height: 48px;
+}
+
+.content-wrapper2 img {
+  width: 60px;
+  height: 48px;
+}
+
+.content-wrapper3 img {
+  width: 48px;
+  height: 48px;
+}
+
+.inside-block {
+  padding: 0 64px;
+}
+
+.inside-block h3 {
+  font-size: 18.72px;
+  padding-top: 16px;
+}
+
+.inside-block p {
+  font-size: 16px;
+  padding: 16px 0;
+}
+
+.about {
+  display: flex;
+  padding: 64px 16px;
+  margin: 0 350px;
+  min-width: 320;
+}
+
+.about-inside img {
+  width: 200px;
+  height: 160px;
+}
+
+.about-inside {
+  width: 50%;
+}
+
+.about-inside h2 {
+  font-size: 18.72px;
+  margin: 18.72px 0;
+}
+
+footer {
+  background: #333;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 35.2px;
+}
